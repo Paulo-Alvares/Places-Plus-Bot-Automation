@@ -1,1 +1,6 @@
 __pycache__
+config.py
+base_places_download.csv
+historico_geral.csv
+upload_exclusao.csv
+upload_inclusao.csv

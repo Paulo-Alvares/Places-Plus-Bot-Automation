@@ -343,14 +343,10 @@ if __name__ == "__main__":
         print("="*40 + "\n")
 
         if not df_incluir.empty:
-            resp = input("Deseja fazer o upload automático da INCLUSÃO agora? (s/n): ")
-            if resp.lower() == 's':
-                etapa_4_upload_inclusao()
+            etapa_4_upload_inclusao()
         
         if not df_excluir.empty:
-            resp = input("Deseja fazer o upload automático da EXCLUSÃO agora? (s/n): ")
-            if resp.lower() == 's':
-                etapa_5_upload_exclusao()
+            etapa_5_upload_exclusao()
 
         print("\n🚀 Processo Finalizado! Log salvo em 'historico_geral.csv'.")
         
